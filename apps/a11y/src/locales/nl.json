@@ -1,0 +1,32 @@
+{
+	"panelTitle": "Toegankelijkheidsmenu",
+	"floatingButtonLabel": "Toegankelijkheidsmenu openen",
+	"closeLabel": "Toegankelijkheidsmenu sluiten",
+	"speechLang": "nl-NL",
+	"sections": {
+		"textLayout": "Tekst en lay-out",
+		"visualAids": "Visuele hulpmiddelen"
+	},
+	"sliders": {
+		"fontSize": "Tekstgrootte",
+		"lineHeight": "Regelhoogte",
+		"letterSpacing": "Letterafstand"
+	},
+	"toggles": {
+		"darkMode": "Donkere modus",
+		"contrast": "Nachtmodus",
+		"dyslexia": "Dyslexie-vriendelijk",
+		"readableFont": "Leesbaar lettertype",
+		"highlightLinks": "Links markeren",
+		"hideImages": "Afbeeldingen en video’s verbergen",
+		"magnifier": "Leesmasker",
+		"reduceMotion": "Beweging verminderen",
+		"bigCursor": "Grote cursor",
+		"readAloud": "Voorlezen"
+	},
+	"resetButton": "Alle instellingen resetten",
+	"readAloudAnnouncements": {
+		"enabled": "Voorlezen ingeschakeld",
+		"disabled": "Voorlezen uitgeschakeld"
+	}
+}

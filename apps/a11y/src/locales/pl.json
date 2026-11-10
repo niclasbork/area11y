@@ -1,0 +1,32 @@
+{
+	"panelTitle": "Menu dostępności",
+	"floatingButtonLabel": "Otwórz menu dostępności",
+	"closeLabel": "Zamknij menu dostępności",
+	"speechLang": "pl-PL",
+	"sections": {
+		"textLayout": "Tekst i układ",
+		"visualAids": "Ułatwienia wizualne"
+	},
+	"sliders": {
+		"fontSize": "Rozmiar tekstu",
+		"lineHeight": "Wysokość linii",
+		"letterSpacing": "Odstępy między literami"
+	},
+	"toggles": {
+		"darkMode": "Tryb ciemny",
+		"contrast": "Tryb nocny",
+		"dyslexia": "Przyjazne dla dysleksji",
+		"readableFont": "Czytelna czcionka",
+		"highlightLinks": "Wyróżnij linki",
+		"hideImages": "Ukryj obrazy i wideo",
+		"magnifier": "Maska czytania",
+		"reduceMotion": "Ogranicz ruch",
+		"bigCursor": "Duży kursor",
+		"readAloud": "Czytaj na głos"
+	},
+	"resetButton": "Zresetuj wszystkie ustawienia",
+	"readAloudAnnouncements": {
+		"enabled": "Czytanie na głos włączone",
+		"disabled": "Czytanie na głos wyłączone"
+	}
+}

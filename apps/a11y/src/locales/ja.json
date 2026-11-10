@@ -1,0 +1,32 @@
+{
+	"panelTitle": "アクセシビリティメニュー",
+	"floatingButtonLabel": "アクセシビリティメニューを開く",
+	"closeLabel": "アクセシビリティメニューを閉じる",
+	"speechLang": "ja-JP",
+	"sections": {
+		"textLayout": "テキストとレイアウト",
+		"visualAids": "視覚支援"
+	},
+	"sliders": {
+		"fontSize": "文字サイズ",
+		"lineHeight": "行間",
+		"letterSpacing": "文字間隔"
+	},
+	"toggles": {
+		"darkMode": "ダークモード",
+		"contrast": "ナイトシフト",
+		"dyslexia": "ディスレクシア向け",
+		"readableFont": "読みやすいフォント",
+		"highlightLinks": "リンクを強調",
+		"hideImages": "画像と動画を非表示",
+		"magnifier": "読書マスク",
+		"reduceMotion": "動きを減らす",
+		"bigCursor": "大きなカーソル",
+		"readAloud": "読み上げ"
+	},
+	"resetButton": "すべての設定をリセット",
+	"readAloudAnnouncements": {
+		"enabled": "読み上げが有効になりました",
+		"disabled": "読み上げが無効になりました"
+	}
+}

@@ -1,0 +1,59 @@
+@use '../styles/_mixins.scss' as *;
+
+.story {
+  background: #fff;
+  border-radius: rem(32);
+  border: rem(1) solid #ececec;
+  padding: rem(35) rem(40);
+  max-width: 1024px;
+
+  @include mq-max(640) {
+    padding: rem(24);
+  }
+
+  p {
+    margin-bottom: rem(16);
+    max-width: rem(800);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+  }
+
+  .textColumns {
+    column-count: 2;
+    column-gap: rem(40);
+    max-width: rem(900);
+
+    @include mq-max(760) {
+      column-count: 1;
+    }
+
+    p {
+      break-inside: avoid;
+      max-width: none;
+    }
+  }
+
+  .group {
+    display: flex;
+    flex-direction: row;
+    gap: rem(24);
+
+    @include mq-max(640) {
+        flex-direction: column;
+    }
+
+    .groupItem {
+      margin: 0;
+      border: rem(1) solid #ececec;
+      border-radius: rem(24);
+      padding: rem(20) rem(24);
+
+      h3 {
+        color: #0f172a;
+        margin: 0 0 rem(5) 0;
+      }
+    }
+  }
+}

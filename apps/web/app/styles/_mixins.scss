@@ -1,0 +1,40 @@
+$breakpoints: (
+  sm: 768px,
+  md: 1024px,
+  lg: 1280px
+) !default;
+
+@function breakpoint-value($key-or-px) {
+  @if type-of($key-or-px) == 'number' or unit($key-or-px) == 'px' {
+    @if unit($key-or-px) == 'px' {
+      @return $key-or-px;
+    }
+    @return $key-or-px * 1px;
+  }
+  @if map-has-key($breakpoints, $key-or-px) {
+    @return map-get($breakpoints, $key-or-px);
+  }
+  @return $key-or-px;
+}
+
+@function rem($px, $base: 16) {
+  @return ($px / $base) * 1rem;
+}
+
+@mixin font-size($px, $base: 16) {
+  font-size: rem($px, $base);
+}
+
+@mixin mq-min($key-or-px) {
+  $value: breakpoint-value($key-or-px);
+  @media (min-width: $value) {
+    @content;
+  }
+}
+
+@mixin mq-max($key-or-px) {
+  $value: breakpoint-value($key-or-px);
+  @media (max-width: $value) {
+    @content;
+  }
+}

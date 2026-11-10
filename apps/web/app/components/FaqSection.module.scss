@@ -1,0 +1,47 @@
+@use '../styles/_mixins.scss' as *;
+
+.faq {
+	background: #fff;
+	border-radius: 32px;
+	border: 1px solid #ececec;
+	padding: rem(35) rem(40);
+	max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+	gap: rem(24);
+
+	@include mq-max(640) {
+		padding: rem(24);
+	}
+
+	h2 {
+		margin: 0;
+	}
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: rem(16);
+}
+
+.item {
+	padding-top: rem(16);
+	border-top: 1px solid #ececec;
+
+	&:first-child {
+		border-top: none;
+		padding-top: 0;
+	}
+
+	h3 {
+		margin: 0 0 rem(8);
+		font-size: rem(16);
+	}
+
+	p {
+		margin: 0;
+		color: #4c4c4c;
+        max-width: rem(800);
+	}
+}

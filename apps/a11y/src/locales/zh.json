@@ -1,0 +1,32 @@
+{
+	"panelTitle": "无障碍菜单",
+	"floatingButtonLabel": "打开无障碍菜单",
+	"closeLabel": "关闭无障碍菜单",
+	"speechLang": "zh-CN",
+	"sections": {
+		"textLayout": "文字与布局",
+		"visualAids": "视觉辅助"
+	},
+	"sliders": {
+		"fontSize": "字体大小",
+		"lineHeight": "行高",
+		"letterSpacing": "字符间距"
+	},
+	"toggles": {
+		"darkMode": "深色模式",
+		"contrast": "夜间模式",
+		"dyslexia": "阅读障碍友好",
+		"readableFont": "易读字体",
+		"highlightLinks": "高亮链接",
+		"hideImages": "隐藏图片和视频",
+		"magnifier": "阅读遮罩",
+		"reduceMotion": "减少动态效果",
+		"bigCursor": "大光标",
+		"readAloud": "朗读"
+	},
+	"resetButton": "重置所有设置",
+	"readAloudAnnouncements": {
+		"enabled": "朗读已开启",
+		"disabled": "朗读已关闭"
+	}
+}

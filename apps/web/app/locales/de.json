@@ -1,0 +1,464 @@
+{
+	"metadata": {
+		"siteTitle": "area11y – Accessibility Widget für barrierefreie Websites",
+		"titleTemplate": "area11y – %s",
+		"siteDescription": "area11y ist ein modernes Accessibility Widget für Websites. Es unterstützt die Umsetzung digitaler Barrierefreiheit und hilft dabei, Inhalte für alle Menschen zugänglich zu machen – schnell integrierbar per Script oder npm.",
+		"siteName": "area11y",
+		"homeTitle": "Digitale Barrierefreiheit für Websites",
+		"homeDescription": "area11y hilft dabei, Websites barrierefreier und inklusiver zu gestalten. Das Widget lässt sich schnell integrieren und unterstützt Nutzer mit unterschiedlichen Bedürfnissen im digitalen Raum.",
+		"imprintTitle": "Impressum",
+		"imprintDescription": "Rechtliche Angaben und Kontaktinformationen zu area11y.",
+		"privacyTitle": "Datenschutzerklärung",
+		"privacyDescription": "Datenschutzinformationen zu area11y. Das Widget arbeitet ohne Tracking-Cookies, ohne Nutzerprofile und speichert Einstellungen lokal im Browser.",
+		"accessibilityTitle": "Digitale Barrierefreiheit",
+		"accessibilityDescription": "Warum Barrierefreiheit im Web wichtig ist: rechtliche Grundlagen, gesellschaftliche Verantwortung und wie digitale Angebote für alle Menschen zugänglich werden."
+	},
+	"languageSwitcher": {
+		"languages": {
+			"de": "Deutsch",
+			"en": "Englisch"
+		}
+	},
+	"header": {
+		"title": "area11y",
+		"subtitle": "Digitale Barrierefreiheit für deine Webseite."
+	},
+	"hero": {
+		"heading": "Barrierefreiheit. Für alle gemacht.",
+		"ctaPrimary": "area11y entdecken",
+		"ctaSecondary": "Jetzt loslegen",
+		"overlay": {
+			"closeLabel": "Dialog schliessen",
+			"eyebrow": "Mehr erfahren",
+			"title": "area11y spielt auf jeder Webseite mit.",
+			"body": "Füge das Widget ein und erlebe sofort, wie das Barrierefreiheits-Tool aktiv wird. Von Kontrast- und Bewegungsoptionen bis hin zu Spracheinstellungen bist du nur wenige Minuten von einer barrierekonformen Nutzererfahrung entfernt.",
+			"sections": [
+				{
+					"variant": "two",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-01.jpg",
+								"alt": "area11y Schriftgrösse"
+							},
+							"title": "Textgrösse",
+							"description": "Skaliert sämtliche Schrift auf der Seite zwischen 100% und 200%, damit Inhalte sofort grösser lesbar sind."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-02.jpg",
+								"alt": "area11y Zeilenabstand"
+							},
+							"title": "Zeilenabstand",
+							"description": "Erhöht den line-height-Wert, um dicht gepackte Absätze aufzulockern und das Lesen zu erleichtern."
+						}
+					]
+				},
+				{
+					"variant": "three",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-03.jpg",
+								"alt": "area11y Zeichenabstand"
+							},
+							"title": "Zeichenabstand",
+							"description": "Fügt zusätzliche Letter-spacing ein und schafft mehr Abstand zwischen Zeichen, wodurch Wörter sauber separiert sind."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-04.png",
+								"alt": "area11y Dunkelmodus"
+							},
+							"title": "Dunkelmodus",
+							"description": "Schaltet Host-Seiten auf ein dunkles Farbschema mit hellen Texten um, inklusive Formularen und Semantik-Containern."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-05.png",
+								"alt": "area11y Night Shift"
+							},
+							"title": "Night Shift",
+							"description": "Warmes Farbschema mit reduzierter Blendung - ideal für lange Sessions am Bildschirm."
+						}
+					]
+				},
+				{
+					"variant": "two",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-06.png",
+								"alt": "area11y Dyslexie-Schrift"
+							},
+							"title": "Dyslexie-Schrift",
+							"description": "Ersetzt sämtliche Fonts durch OpenDyslexic bzw. vertraute Groteskschriften mit klaren Formen."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-07.png",
+								"alt": "area11y Lesbare Schrift"
+							},
+							"title": "Lesbare Schrift",
+							"description": "Wechselt auf Atkinson Hyperlegible, eine eigens für Lesbarkeit optimierte Schriftart."
+						}
+					]
+				},
+				{
+					"variant": "three",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-08.png",
+								"alt": "area11y Links hervorheben"
+							},
+							"title": "Links hervorheben",
+							"description": "Kennzeichnet jeden Anker durch Outline, Hintergrundfarbe und Unterstreichung, damit Ziele sofort auffallen."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-09.png",
+								"alt": "area11y Bilder und Videos ausblenden"
+							},
+							"title": "Bilder und Videos ausblenden",
+							"description": "Ersetzt jedes Bild und Video durch ein neutrales Placeholder-Panel, das nur für Screenreader beschriftet ist."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-10.png",
+								"alt": "area11y Lesemaske"
+							},
+							"title": "Lesemaske",
+							"description": "Hebt eine horizontale Lesezeile hervor und blendet den Rest dezent ab."
+						}
+					]
+				},
+				{
+					"variant": "three",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-11.png",
+								"alt": "area11y Weniger Bewegung"
+							},
+							"title": "Weniger Bewegung",
+							"description": "Setzt globale Animations- und Transition-Daürn auf nahezu null, um Motion-Sickness zu minimieren."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-12.png",
+								"alt": "area11y Grosser Cursor"
+							},
+							"title": "Grosser Cursor",
+							"description": "Ersetzt den Mauszeiger durch eine kontrastreiche Grossversion, sichtbar auf jeder Oberfläche."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-13.png",
+								"alt": "area11y Vorlesen"
+							},
+							"title": "Vorlesen",
+							"description": "Aktiviert Text-to-Speech inklusive Announcements, damit Inhalte hörbar ausgegeben werden."
+						}
+					]
+				},
+				{
+					"variant": "three",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-14.jpg",
+								"alt": "area11y Reset"
+							},
+							"title": "Einstellungen zurücksetzen",
+							"description": "Setzt alle aktiven Funktionen zurück und stellt die Standardeinstellungen wieder her."
+						},
+						{
+							"title": "Gespeicherte Einstellungen",
+							"description": "Alle Einstellungen bleiben im Local Storage des Browsers unter dem Namespace area11y:* erhalten, sodass Besucher ihr Setup über Seiten und Besuche hinweg behalten."
+						}
+					]
+				}
+			]
+		}
+	},
+	"story": {
+		"title": "Ein Widget. Unzählige Möglichkeiten.",
+		"body": [
+			"area11y ist ein leistungsstarkes, einbettbares Accessibility-Widget, entwickelt mit React, TypeScript und Tailwind CSS. Es bietet umfassende Text- und Lesbarkeitsanpassungen wie Textskalierung, Zeilenhöhe, Zeichen- und Wortabstände, dyslexiefreundliche Schriftarten, einen vergrößerten Mauszeiger, eine Lesemaske, Link-Hervorhebung mit Fokus-Ringen, Reduce-Motion-Einstellungen sowie eine Vorlesefunktion mit Screenreader-Unterstützung.",
+			"Zusätzlich stehen Dark Mode und Night Shift, das Ausblenden von Medien mit barrierefreien Platzhaltern, Verbesserungen der Tastaturnavigation und persistente Benutzereinstellungen zur Verfügung. Das Widget-Menü ist in Deutsch, Englisch, Französisch, Spanisch, Italienisch, Niederländisch, Portugiesisch, Polnisch, Türkisch, Russisch, Arabisch, Chinesisch (vereinfacht) und Japanisch verfügbar. Alle Funktionen lassen sich mit einer einzigen Code-Zeile in unter fünf Minuten in jede Webseite integrieren.",
+			"area11y ist Open Source unter der MIT-Lizenz und kostenlos nutzbar – ohne Lizenzschlüssel, ohne Abonnement und ohne Domain-Limit. Der Quellcode ist auf GitHub verfügbar (github.com/niclasbork/area11y)."
+		]
+	},
+	"faq": {
+		"title": "Häufige Fragen.",
+		"items": [
+			{
+				"question": "Was kostet area11y?",
+				"answer": "Nichts. area11y ist Open Source unter der MIT-Lizenz und kostenlos – für private wie kommerzielle Websites, ohne Konto und ohne Limit bei der Anzahl der Websites."
+			},
+			{
+				"question": "Wie binde ich area11y ein?",
+				"answer": "Mit einem einzigen Script-Tag vor dem schließenden </body>-Tag oder über das npm-Paket. Das dauert wenige Minuten und funktioniert ohne Registrierung. Die genauen Schritte stehen in der Dokumentation."
+			},
+			{
+				"question": "Funktioniert das mit meiner Website oder meinem Framework?",
+				"answer": "Ja. area11y läuft überall, wo du ein Script einbinden kannst – in statischem HTML genauso wie in WordPress, Shopify, React, Vue, Svelte oder Next.js. Das Widget ist per Shadow DOM gekapselt, sodass sich seine Styles und die deiner Website nicht gegenseitig beeinflussen."
+			},
+			{
+				"question": "Macht area11y meine Website automatisch barrierefrei?",
+				"answer": "Nein. area11y gibt deinen Besuchern Werkzeuge an die Hand, um Darstellung und Bedienung an ihre Bedürfnisse anzupassen. Es ersetzt keine barrierefreie Entwicklung: saubere HTML-Struktur, ausreichende Kontraste, Alternativtexte und Tastaturbedienbarkeit müssen weiterhin in der Website selbst stimmen. Eine Konformität mit WCAG oder dem Barrierefreiheitsstärkungsgesetz entsteht durch das Widget allein nicht."
+			},
+			{
+				"question": "Kann ich das Widget an mein Design anpassen?",
+				"answer": "Ja. Du kannst die Akzentfarbe, die Position des Buttons (unten rechts, links oder mittig), ein Tastaturkürzel zum Öffnen und das Start-Theme festlegen."
+			},
+			{
+				"question": "Welche Sprachen unterstützt das Widget?",
+				"answer": "Das Menü gibt es in 13 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Niederländisch, Portugiesisch, Polnisch, Türkisch, Russisch, Arabisch, Chinesisch (vereinfacht) und Japanisch. Standardmäßig folgt es der Sprache deiner Seite (<html lang>) und wechselt mit, wenn sich diese ändert."
+			},
+			{
+				"question": "Macht area11y meine Website langsamer?",
+				"answer": "Kaum. Der Loader ist winzig und wird mit defer geladen, blockiert also den Seitenaufbau nicht. Das eigentliche Widget (rund 100 kB komprimiert) wird erst danach asynchron nachgeladen."
+			},
+			{
+				"question": "Welche Daten erfasst area11y?",
+				"answer": "Die Einstellungen deiner Besucher werden ausschließlich lokal in deren Browser gespeichert. Es gibt keine Cookies und keine Nutzerprofile. Um nachvollziehen zu können, auf welchen Websites area11y eingesetzt wird, meldet der Loader gelegentlich anonym die Domain der Website und die Widget-Version – keine vollständigen URLs, keine IP-Adressen. Details stehen in der Datenschutzerklärung."
+			}
+		]
+	},
+	"readme": {
+		"title": "Jetzt starten.",
+		"intro": "Die Dokumentation erklärt alle Funktionen, Konfigurationsoptionen und Integrationswege des area11y - von der einfachen Einbindung per Script-Tag bis hin zur individüllen Anpassung über API und Events.",
+		"sections": {
+			"script": {
+				"title": "Installation - Script Tag",
+				"description": "Binde den Loader per Script-Tag ein. Er lädt anschliessend den aktuellen Core – ein Lizenzschlüssel ist nicht erforderlich.",
+				"code": "<script\n  src=\"https://engine.area11y.com/loader.js\"\n  data-position=\"bottom-right\"\n  data-primary-color=\"#6366f1\"\n  data-hotkey=\"Alt+A\"\n  data-locale=\"en\"\n  defer\n></script>"
+			},
+			"npm": {
+				"title": "Installation - npm",
+				"description": "Nutze das npm-Paket, um den Loader programmgesteuert einzubinden. Funktioniert in React, Vue, Svelte, Vanilla JS und jeder anderen Bundler-Umgebung.",
+				"linkLabel": "npmjs.com",
+				"codeInstall": "npm install area11y",
+				"codeUsage": "import { loadA11Y } from 'area11y/loader'\n\nloadA11Y({\n  position: 'bottom-right',\n  primaryColor: '#6366f1',\n  hotkey: 'Alt+A',\n  locale: 'en',\n})"
+			},
+			"api": {
+				"title": "API Options",
+				"headers": {
+					"option": "Option",
+					"type": "Typ",
+					"default": "Default",
+					"description": "Beschreibung"
+				},
+				"rows": [
+					{
+						"option": "selector",
+						"type": "string",
+						"defaultValue": "'body'",
+						"description": "DOM-Selector, an dem der Widget-Container gemountet wird."
+					},
+					{
+						"option": "position",
+						"type": "'bottom-right' | 'bottom-left' | 'bottom-center'",
+						"defaultValue": "'bottom-right'",
+						"description": "Position des Floating-Buttons."
+					},
+					{
+						"option": "primaryColor",
+						"type": "string",
+						"defaultValue": "'#000000'",
+						"description": "Hintergrundfarbe für Button und Akzente."
+					},
+					{
+						"option": "hotkey",
+						"type": "string",
+						"defaultValue": "undefined",
+						"description": "Tastaturkürzel zum öffnen (z. B. Alt+A)."
+					},
+					{
+						"option": "locale",
+						"type": "string",
+						"defaultValue": "undefined",
+						"description": "Fixe Sprache; leer lassen für <html lang>."
+					}
+				]
+			}
+		}
+	},
+	"buttons": {
+		"copy": "Copy",
+		"copied": "Copied",
+		"copyAria": "Snippet kopieren"
+	},
+	"common": {
+		"backToHome": "Zurück zur Startseite"
+	},
+	"cookies": {
+		"message": "Wir verwenden Cookies, um die Nutzung anonym zu analysieren und das Produkt zu verbessern. Du kannst jederzeit widersprechen.",
+		"accept": "Akzeptieren",
+		"decline": "Ablehnen"
+	},
+	"footer": {
+		"meta": "München - Porto - Remote",
+		"links": {
+			"imprint": "Impressum",
+			"privacy": "Datenschutz",
+			"accessibility": "Barrierefreiheit",
+			"cookies": "Cookie-Einstellungen"
+		},
+		"logos": [
+			"Vercel",
+			"Tailwind CSS",
+			"Supabase",
+			"npm"
+		],
+		"brandLabel": "BRK"
+	},
+	"imprint": {
+		"title": "Impressum.",
+		"sections": [
+			{
+				"title": "Angaben gemäß § 5 TMG",
+				"lines": [
+					"area11y",
+					"Inhaber: Niclas Bork",
+					"Winthirstraße 16",
+					"80639 München",
+					"Deutschland"
+				]
+			},
+			{
+				"title": "Kontakt",
+				"lines": [
+					"E-Mail: helloniclasbork@gmail.com"
+				]
+			},
+			{
+				"title": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+				"lines": [
+					"Niclas Bork"
+				]
+			},
+			{
+				"title": "Haftung für Inhalte",
+				"lines": [
+					"Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich."
+				]
+			},
+			{
+				"title": "Haftung für Links",
+				"lines": [
+					"Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich."
+				]
+			},
+			{
+				"title": "Urheberrecht",
+				"lines": [
+					"Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+				]
+			}
+		]
+	},
+	"privacy": {
+		"title": "Datenschutzerklärung.",
+		"sections": [
+			{
+				"title": "Verantwortliche Stelle",
+				"lines": [
+					"Verantwortlich für die Datenverarbeitung auf dieser Webseite ist der jeweilige Betreiber der Webseite. area11y wird als Barrierefreiheits-Widget zur Verbesserung der Zugänglichkeit bereitgestellt."
+				]
+			},
+			{
+				"title": "Verarbeitung personenbezogener Daten",
+				"lines": [
+					"Beim Besuch dieser Webseite können personenbezogene Daten verarbeitet werden, sofern dies technisch erforderlich ist oder Sie diese freiwillig zur Verfügung stellen. Das area11y Barrierefreiheits-Widget selbst speichert keine personenbezogenen Daten wie Namen, E-Mail-Adressen oder IP-Adressen, erstellt keine Nutzerprofile und setzt keine Tracking-Cookies."
+				]
+			},
+			{
+				"title": "Lokale Speicherung (Local Storage)",
+				"lines": [
+					"Zur Speicherung Ihrer Barrierefreiheits-Einstellungen nutzt area11y den Local Storage Ihres Browsers. Gespeichert werden z. B. Schriftgröße, Kontrast- oder Dark-Mode-Einstellungen sowie aktivierte Funktionen wie „Reduce Motion“ oder „Großer Mauszeiger“. Diese Daten verbleiben ausschließlich auf Ihrem Endgerät, werden nicht an Server übertragen und können jederzeit durch Löschen des Browser-Speichers entfernt werden."
+				]
+			},
+			{
+				"title": "Webanalyse (Google Analytics)",
+				"lines": [
+					"Diese Webseite nutzt Google Analytics, einen Webanalysedienst der Google Ireland Limited. Google Analytics wird nur nach Ihrer ausdrücklichen Zustimmung geladen. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO. Die IP-Adresse wird anonymisiert. Die erhobenen Daten dienen ausschließlich der Analyse der Webseite-Nutzung."
+				]
+			},
+			{
+				"title": "Einbindung des Widgets auf anderen Websites",
+				"lines": [
+					"Wenn Sie eine Website besuchen, die das area11y Widget einbindet, lädt Ihr Browser das Widget und gegebenenfalls zugehörige Schriftarten von unserem Server engine.area11y.com (gehostet bei Vercel Inc.). Dabei wird technisch bedingt Ihre IP-Adresse an diesen Server übertragen und kann vom Hosting-Anbieter kurzzeitig in Server-Logs erfasst werden. Wir werten diese Daten nicht aus und führen sie nicht mit anderen Daten zusammen. Ihre Einstellungen im Widget verbleiben ausschließlich in Ihrem Browser. Die Auslieferung erfolgt auf Grundlage des berechtigten Interesses an der Bereitstellung des Widgets (Art. 6 Abs. 1 lit. f DSGVO). Für die Einbindung selbst ist der Betreiber der jeweiligen Website verantwortlich; er kann in seiner Datenschutzerklärung auf diesen Abschnitt verweisen."
+				]
+			},
+			{
+				"title": "Anonyme Nutzungsstatistik des Widgets",
+				"lines": [
+					"Wird das area11y Widget über den gehosteten Loader eingebunden, sendet es bei einem zufällig ausgewählten Teil der Seitenaufrufe (etwa jedem zwanzigsten) eine anonyme Meldung an area11y. Dafür wird nichts im Browser der Besucher gespeichert. Gespeichert werden ausschließlich die Domain der einbindenden Webseite, die Widget-Version sowie der Zeitpunkt der ersten und letzten Meldung. Vollständige URLs, Cookies oder Nutzerkennungen werden nicht erfasst. Die IP-Adresse wird technisch bedingt übertragen, aber nicht gespeichert. Die Verarbeitung dient dazu, die Verbreitung des Widgets nachzuvollziehen (Art. 6 Abs. 1 lit. f DSGVO). Betreiber können die Meldung über das Attribut data-telemetry=\"off\" deaktivieren."
+				]
+			},
+			{
+				"title": "Server-Logs & Hosting",
+				"lines": [
+					"Beim Aufruf der Webseite werden durch den Hosting-Anbieter technisch notwendige Server-Logs (z. B. IP-Adresse, Zeitpunkt des Zugriffs, Browsertyp) erfasst. Diese Daten dienen ausschließlich der technischen Sicherheit und Stabilität der Webseite."
+				]
+			},
+			{
+				"title": "Weitergabe von Daten",
+				"lines": [
+					"Eine Weitergabe personenbezogener Daten erfolgt nur, soweit dies zur technischen Bereitstellung oder Analyse der Webseite erforderlich ist."
+				]
+			},
+			{
+				"title": "Ihre Rechte",
+				"lines": [
+					"Sie haben gemäß DSGVO das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Widerspruch. Da das area11y Widget selbst keine personenbezogenen Daten speichert, beziehen sich diese Rechte primär auf externe Dienste wie Analytics."
+				]
+			},
+			{
+				"title": "Änderungen dieser Datenschutzerklärung",
+				"lines": [
+					"Diese Datenschutzerklärung kann bei technischen oder rechtlichen Änderungen angepasst werden. Es gilt stets die aktuelle Version auf dieser Webseite."
+				]
+			}
+		]
+	},
+	"accessibility": {
+		"title": "Barrierefreiheit im Web – warum sie wichtig ist.",
+		"sections": [
+			{
+				"title": "Warum Barrierefreiheit wichtig ist",
+				"lines": [
+					"Barrierefreiheit im Web bedeutet, dass digitale Inhalte für alle Menschen zugänglich sind – unabhängig von körperlichen, sensorischen oder kognitiven Einschränkungen sowie von Gerät oder Nutzungssituation. Dazu zählen unter anderem Menschen mit: Seh- oder Hörbeeinträchtigungen, motorischen Einschränkungen, Lern- oder Konzentrationsschwierigkeiten, altersbedingten Einschränkungen."
+				]
+			},
+			{
+				"title": "Was ist digitale Barrierefreiheit?",
+				"lines": [
+					"Digitale Barrierefreiheit verfolgt das Ziel, Websites und Anwendungen so zu gestalten, dass sie: verständlich, wahrnehmbar, bedienbar, robust sind. Diese Prinzipien bilden die Grundlage der WCAG-Richtlinien (Web Content Accessibility Guidelines)."
+				]
+			},
+			{
+				"title": "Screenreader & assistive Technologien",
+				"lines": [
+					"Viele Menschen nutzen assistive Technologien wie Screenreader, Tastaturnavigation oder Vergrößerungssoftware.",
+					"Eine saubere HTML-Struktur mit semantischen Elementen wie <header>, <nav>, <main> oder <footer> unterstützt diese Technologien erheblich. Die tatsächliche Qualität der Sprachausgabe hängt dabei oft vom Betriebssystem und Gerät ab."
+				]
+			},
+			{
+				"title": "Rechtlicher Rahmen",
+				"lines": [
+					"In vielen Ländern gelten gesetzliche Vorgaben zur digitalen Barrierefreiheit, z. B.: für öffentliche Stellen, für bestimmte Unternehmen und Dienstleistungen, im Rahmen der EU-Richtlinie zur Barrierefreiheit. Barrierefreiheit ist dabei nicht nur eine rechtliche Pflicht, sondern auch ein Qualitäts- und Nutzbarkeitsmerkmal."
+				]
+			},
+			{
+				"title": "Unser Ansatz",
+				"lines": [
+					"Dieses Barrierefreiheits-Tool versteht sich als unterstützende Maßnahme, um Nutzerinnen und Nutzern mehr Kontrolle über die Darstellung und Bedienung einer Webseite zu geben. Es ersetzt keine vollständige barrierefreie Entwicklung, trägt aber dazu bei, digitale Inhalte zugänglicher, angenehmer und inklusiver zu machen."
+				]
+			}
+		]
+	}
+}

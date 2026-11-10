@@ -1,0 +1,464 @@
+{
+	"metadata": {
+		"siteTitle": "area11y – Accessibility Widget for Accessible Websites",
+		"titleTemplate": "area11y – %s",
+		"siteDescription": "area11y is a modern accessibility widget for websites. It supports the implementation of digital accessibility and helps make content accessible to everyone — quickly integrated via script or npm.",
+		"siteName": "area11y",
+		"homeTitle": "Digital Accessibility for Websites",
+		"homeDescription": "area11y helps make websites more accessible and inclusive. The widget integrates quickly and supports users with diverse accessibility needs in the digital space.",
+		"imprintTitle": "Imprint",
+		"imprintDescription": "Legal information and contact details for area11y.",
+		"privacyTitle": "Privacy Policy",
+		"privacyDescription": "Privacy information for area11y. The widget operates without tracking cookies, without user profiling, and stores settings locally in the browser.",
+		"accessibilityTitle": "Digital Accessibility",
+		"accessibilityDescription": "Why web accessibility matters: legal requirements, social responsibility, and how digital products can be made accessible to everyone."
+	},
+	"languageSwitcher": {
+		"languages": {
+			"de": "German",
+			"en": "English"
+		}
+	},
+	"header": {
+		"title": "area11y",
+		"subtitle": "Digital accessibility for your website."
+	},
+	"hero": {
+		"heading": "Accessibility. Built for everyone.",
+		"ctaPrimary": "Explore area11y",
+		"ctaSecondary": "Get started",
+		"overlay": {
+			"closeLabel": "Close dialog",
+			"eyebrow": "Learn more",
+			"title": "area11y plays nicely with every site.",
+			"body": "Drop in the widget and see the assistive toolset come alive instantly. From contrast and motion to language options, you are minutes away from a compliant experience.",
+			"sections": [
+				{
+					"variant": "two",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-01.jpg",
+								"alt": "area11y Font Size"
+							},
+							"title": "Text size",
+							"description": "Scales all text between 100% and 200% so content is instantly easier to read."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-02.jpg",
+								"alt": "area11y Line Height"
+							},
+							"title": "Line height",
+							"description": "Increases line-height to loosen dense paragraphs and improve readability."
+						}
+					]
+				},
+				{
+					"variant": "three",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-03.jpg",
+								"alt": "area11y Letter Spacing"
+							},
+							"title": "Letter Spacing",
+							"description": "Adds extra spacing between characters so words are more clearly separated."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-04.png",
+								"alt": "area11y Dark Mode"
+							},
+							"title": "Dark mode",
+							"description": "Switches host pages to a dark color scheme with bright text, including forms and semantic containers."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-05.png",
+								"alt": "area11y Night Shift"
+							},
+							"title": "Night Shift",
+							"description": "Warm color palette with reduced glare for long reading sessions."
+						}
+					]
+				},
+				{
+					"variant": "two",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-06.png",
+								"alt": "area11y Dyslexia-Friendly"
+							},
+							"title": "Dyslexia-friendly",
+							"description": "Replaces fonts with OpenDyslexic and clean grotesk families for clear shapes."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-07.png",
+								"alt": "area11y Readable Font"
+							},
+							"title": "Readable font",
+							"description": "Switches to Atkinson Hyperlegible, a font designed for legibility."
+						}
+					]
+				},
+				{
+					"variant": "three",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-08.png",
+								"alt": "area11y Highlight Links"
+							},
+							"title": "Highlight links",
+							"description": "Marks every link with outline, background, and underline so targets are obvious."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-09.png",
+								"alt": "area11y Hide Images"
+							},
+							"title": "Hide images and videos",
+							"description": "Replaces each image and video with a neutral placeholder panel labelled for screen readers."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-10.png",
+								"alt": "area11y Reading Mask"
+							},
+							"title": "Reading mask",
+							"description": "Highlights a horizontal reading band while softly dimming the rest."
+						}
+					]
+				},
+				{
+					"variant": "three",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-11.png",
+								"alt": "area11y Reduce Motion"
+							},
+							"title": "Reduce motion",
+							"description": "Sets global animation and transition durations close to zero to reduce motion sickness."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-12.png",
+								"alt": "area11y Big Cursor"
+							},
+							"title": "Big cursor",
+							"description": "Replaces the pointer with a high-contrast oversized cursor on every surface."
+						},
+						{
+							"image": {
+								"src": "/img/area11y-explanation-13.png",
+								"alt": "area11y Read Aloud"
+							},
+							"title": "Read aloud",
+							"description": "Enables text-to-speech with announcements so content is spoken out loud."
+						}
+					]
+				},
+				{
+					"variant": "three",
+					"items": [
+						{
+							"image": {
+								"src": "/img/area11y-explanation-14.jpg",
+								"alt": "area11y Reset"
+							},
+							"title": "Reset settings",
+							"description": "Resets all active features and restores default settings."
+						},
+						{
+							"title": "Saved preferences",
+							"description": "All settings persist in the browser's local storage under the area11y:* namespace, so visitors keep their setup across pages and visits."
+						}
+					]
+				}
+			]
+		}
+	},
+	"story": {
+		"title": "One widget. Countless possibilities.",
+		"body": [
+			"area11y is a powerful, embeddable accessibility widget built with React, TypeScript, and Tailwind CSS. It enables comprehensive text and readability controls including text scaling, line height, letter spacing, dyslexia-friendly fonts, large cursor support, reading mask, link highlighting with focus rings, reduce-motion preferences, and read-aloud functionality with screen reader support.",
+			"It also offers dark mode and night shift, media hiding with accessible placeholders, keyboard navigation enhancements, and persistent user settings. The widget menu is available in German, English, French, Spanish, Italian, Dutch, Portuguese, Polish, Turkish, Russian, Arabic, Simplified Chinese, and Japanese. All features can be integrated into any website with a single line of code — in under five minutes.",
+			"area11y is open source under the MIT license and free to use – no license key, no subscription and no domain limit. The source code is available on GitHub (github.com/niclasbork/area11y)."
+		]
+	},
+	"faq": {
+		"title": "Frequently Asked Questions.",
+		"items": [
+			{
+				"question": "What does area11y cost?",
+				"answer": "Nothing. area11y is open source under the MIT license and free – for personal and commercial websites alike, with no account and no limit on the number of sites."
+			},
+			{
+				"question": "How do I add area11y to my site?",
+				"answer": "With a single script tag before the closing </body> tag, or through the npm package. It takes a few minutes and needs no sign-up. The exact steps are in the documentation."
+			},
+			{
+				"question": "Does it work with my website or framework?",
+				"answer": "Yes. area11y runs anywhere you can add a script – plain HTML as well as WordPress, Shopify, React, Vue, Svelte or Next.js. The widget is encapsulated in a shadow DOM, so its styles and your site's styles don't interfere with each other."
+			},
+			{
+				"question": "Does area11y make my website accessible automatically?",
+				"answer": "No. area11y gives your visitors tools to adapt how the page looks and behaves to their needs. It does not replace accessible development: clean HTML structure, sufficient contrast, alternative text and keyboard operability still have to be right in the website itself. The widget alone does not make a site conform to WCAG or accessibility legislation."
+			},
+			{
+				"question": "Can I match the widget to my design?",
+				"answer": "Yes. You can set the accent color, the position of the button (bottom right, left or center), a keyboard shortcut to open it, and the initial theme."
+			},
+			{
+				"question": "Which languages does the widget support?",
+				"answer": "The menu is available in 13 languages: German, English, French, Spanish, Italian, Dutch, Portuguese, Polish, Turkish, Russian, Arabic, Simplified Chinese and Japanese. By default it follows your page's language (<html lang>) and switches along when that changes."
+			},
+			{
+				"question": "Does area11y slow my website down?",
+				"answer": "Barely. The loader is tiny and loaded with defer, so it doesn't block rendering. The widget itself (about 100 kB compressed) is fetched asynchronously afterwards."
+			},
+			{
+				"question": "What data does area11y collect?",
+				"answer": "Your visitors' settings are stored only locally in their browser. There are no cookies and no user profiles. To see which websites use area11y, the loader occasionally reports the site's domain and the widget version anonymously – no full URLs, no IP addresses. Details are in the privacy policy."
+			}
+		]
+	},
+	"readme": {
+		"title": "Get started.",
+		"intro": "The documentation covers every feature, configuration option, and integration path for area11y - from script tag setup to API and events.",
+		"sections": {
+			"script": {
+				"title": "Installation - Script Tag",
+				"description": "Embed the loader via a script tag. It then loads the current core – no license key required.",
+				"code": "<script\n  src=\"https://engine.area11y.com/loader.js\"\n  data-position=\"bottom-right\"\n  data-primary-color=\"#6366f1\"\n  data-hotkey=\"Alt+A\"\n  data-locale=\"en\"\n  defer\n></script>"
+			},
+			"npm": {
+				"title": "Installation - npm",
+				"description": "Use the npm package to load the widget programmatically. Works in React, Vue, Svelte, vanilla JS, and any bundler environment.",
+				"linkLabel": "npmjs.com",
+				"codeInstall": "npm install area11y",
+				"codeUsage": "import { loadA11Y } from 'area11y/loader'\n\nloadA11Y({\n  position: 'bottom-right',\n  primaryColor: '#6366f1',\n  hotkey: 'Alt+A',\n  locale: 'en',\n})"
+			},
+			"api": {
+				"title": "API Options",
+				"headers": {
+					"option": "Option",
+					"type": "Type",
+					"default": "Default",
+					"description": "Description"
+				},
+				"rows": [
+					{
+						"option": "selector",
+						"type": "string",
+						"defaultValue": "'body'",
+						"description": "DOM selector where the widget container mounts."
+					},
+					{
+						"option": "position",
+						"type": "'bottom-right' | 'bottom-left' | 'bottom-center'",
+						"defaultValue": "'bottom-right'",
+						"description": "Floating action button placement."
+					},
+					{
+						"option": "primaryColor",
+						"type": "string",
+						"defaultValue": "'#000000'",
+						"description": "Background color for button and accents."
+					},
+					{
+						"option": "hotkey",
+						"type": "string",
+						"defaultValue": "undefined",
+						"description": "Keyboard shortcut to toggle the core (e.g. Alt+A)."
+					},
+					{
+						"option": "locale",
+						"type": "string",
+						"defaultValue": "undefined",
+						"description": "Fixed locale; omit to follow <html lang>."
+					}
+				]
+			}
+		}
+	},
+	"buttons": {
+		"copy": "Copy",
+		"copied": "Copied",
+		"copyAria": "Copy snippet"
+	},
+	"common": {
+		"backToHome": "Back to home"
+	},
+	"cookies": {
+		"message": "We use cookies to anonymously analyze usage and improve the product. You can opt out at any time.",
+		"accept": "Accept",
+		"decline": "Decline"
+	},
+	"footer": {
+		"meta": "Munich - Porto - Remote",
+		"links": {
+			"imprint": "Imprint",
+			"privacy": "Privacy",
+			"accessibility": "Accessibility",
+			"cookies": "Cookie settings"
+		},
+		"logos": [
+			"Vercel",
+			"Tailwind CSS",
+			"Supabase",
+			"npm"
+		],
+		"brandLabel": "BRK"
+	},
+	"imprint": {
+		"title": "Imprint.",
+		"sections": [
+			{
+				"title": "Information according to Section 5 of the German Telemedia Act (TMG)",
+				"lines": [
+					"area11y",
+					"Owner: Niclas Bork",
+					"Winthirstraße 16",
+					"80639 Munich",
+					"Germany"
+				]
+			},
+			{
+				"title": "Contact",
+				"lines": [
+					"Email: helloniclasbork@gmail.com"
+				]
+			},
+			{
+				"title": "Responsible for content pursuant to Section 55 (2) RStV",
+				"lines": [
+					"Niclas Bork"
+				]
+			},
+			{
+				"title": "Liability for content",
+				"lines": [
+					"As a service provider, we are responsible for our own content on these pages in accordance with general laws. According to Sections 8 to 10 of the German Telemedia Act (TMG), we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected. Liability is only possible from the point in time at which we become aware of a specific legal violation."
+				]
+			},
+			{
+				"title": "Liability for links",
+				"lines": [
+					"Our website contains links to external third-party websites over whose content we have no control. Therefore, we cannot assume any liability for this external content. The respective provider or operator of the linked websites is always responsible for their content."
+				]
+			},
+			{
+				"title": "Copyright",
+				"lines": [
+					"The content and works created by the site operator on these pages are subject to German copyright law. Any duplication, processing, distribution, or any form of exploitation beyond the scope of copyright law requires the prior written consent of the respective author or creator."
+				]
+			}
+		]
+	},
+	"privacy": {
+		"title": "Privacy Policy.",
+		"sections": [
+			{
+				"title": "Responsible Party",
+				"lines": [
+					"The operator of this website is responsible for data processing. area11y is provided as an accessibility widget to improve website usability and accessibility."
+				]
+			},
+			{
+				"title": "Processing of Personal Data",
+				"lines": [
+					"Personal data may be processed when using this website if it is technically required or voluntarily provided by you. The area11y accessibility widget itself does not store names, email addresses, or IP addresses, does not create user profiles, and does not set tracking cookies."
+				]
+			},
+			{
+				"title": "Local Storage",
+				"lines": [
+					"To store accessibility preferences, area11y uses your browser’s local storage. Stored settings may include font size, contrast or dark mode preferences, and enabled features such as \"Reduce Motion\" or \"Large Cursor\". This data remains exclusively on your device, is not transmitted to any server, and can be removed at any time by clearing your browser storage."
+				]
+			},
+			{
+				"title": "Web Analytics (Google Analytics)",
+				"lines": [
+					"This website uses Google Analytics, a web analytics service provided by Google Ireland Limited. Google Analytics is only loaded after your explicit consent. Data processing is based on Art. 6 (1) (a) GDPR. IP addresses are anonymized. The collected data is used solely to analyze website usage."
+				]
+			},
+			{
+				"title": "Use of the Widget on Other Websites",
+				"lines": [
+					"When you visit a website that embeds the area11y widget, your browser loads the widget and, where needed, its fonts from our server engine.area11y.com (hosted by Vercel Inc.). For technical reasons your IP address is transmitted to that server and may be recorded briefly in server logs by the hosting provider. We do not analyze this data or combine it with other data. Your settings in the widget remain exclusively in your browser. The delivery is based on the legitimate interest in providing the widget (Art. 6(1)(f) GDPR). The operator of the respective website is responsible for embedding the widget and may refer to this section in their own privacy policy."
+				]
+			},
+			{
+				"title": "Anonymous Usage Statistics of the Widget",
+				"lines": [
+					"When the area11y widget is embedded through the hosted loader, it sends an anonymous message to area11y for a randomly selected share of page views (about one in twenty). Nothing is stored in the visitor's browser for this. Only the domain of the embedding website, the widget version, and the time of the first and most recent message are stored. Full URLs, cookies or user identifiers are not collected. The IP address is transmitted for technical reasons but is not stored. The processing serves to understand how widely the widget is used (Art. 6(1)(f) GDPR). Site operators can disable the message with the data-telemetry=\"off\" attribute."
+				]
+			},
+			{
+				"title": "Server Logs and Hosting",
+				"lines": [
+					"When accessing the website, the hosting provider may collect technically necessary server logs (e.g. IP address, access time, browser type). These logs are used exclusively to ensure technical stability and security."
+				]
+			},
+			{
+				"title": "Data Sharing",
+				"lines": [
+					"Personal data is only shared with third parties where necessary for technical operation or analytics."
+				]
+			},
+			{
+				"title": "Your Rights",
+				"lines": [
+					"Under the GDPR, you have the right to access, rectification, deletion, restriction of processing, and objection. Since the area11y widget itself does not store personal data, these rights primarily apply to external services such as analytics."
+				]
+			},
+			{
+				"title": "Changes to This Privacy Policy",
+				"lines": [
+					"This privacy policy may be updated due to technical or legal changes. The most current version published on this website always applies."
+				]
+			}
+		]
+	},
+	"accessibility": {
+		"title": "Accessibility on the Web - Why It Matters.",
+		"sections": [
+			{
+				"title": "Why Accessibility Matters",
+				"lines": [
+					"Web accessibility means digital content is available to everyone, regardless of physical, sensory, or cognitive limitations, as well as device or usage context. This includes, among others, people with: visual or hearing impairments, motor limitations, learning or concentration difficulties, age-related limitations"
+				]
+			},
+			{
+				"title": "What Is Digital Accessibility?",
+				"lines": [
+					"Digital accessibility aims to design websites and applications so they are: understandable, perceivable, operable, robust. These principles form the foundation of the WCAG (Web Content Accessibility Guidelines)."
+				]
+			},
+			{
+				"title": "Screen Readers and Assistive Technologies",
+				"lines": [
+					"Many people use assistive technologies such as screen readers, keyboard navigation, or magnification software.",
+					"A clean HTML structure with semantic elements like <header>, <nav>, <main>, or <footer> strongly supports these technologies. The quality of speech output often depends on the operating system and device."
+				]
+			},
+			{
+				"title": "Legal Framework",
+				"lines": [
+					"Many countries have legal requirements for digital accessibility, for example: for public institutions, for certain companies and services, within the EU accessibility directive. Accessibility is not only a legal obligation, but also a quality and usability standard."
+				]
+			},
+			{
+				"title": "Our Approach",
+				"lines": [
+					"This accessibility tool is meant as a supportive measure to give users more control over the presentation and interaction of a website. It does not replace fully accessible development, but it helps make digital content more accessible, comfortable, and inclusive."
+				]
+			}
+		]
+	}
+}

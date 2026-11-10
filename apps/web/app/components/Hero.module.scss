@@ -1,0 +1,304 @@
+@use '../styles/_mixins.scss' as *;
+
+.hero {
+  background: #fff;
+  border-radius: rem(32);
+  border: rem(1) solid #ececec;
+  padding: rem(35) rem(40);
+  display: flex;
+  flex-direction: column;
+  gap: rem(16);
+  text-align: center;
+  max-width: rem(1024);
+
+  @include mq-max(640px) {
+    padding: rem(24);
+  }
+
+  .kicker {
+    text-transform: uppercase;
+    letter-spacing: rem(2);
+    @include font-size(12);
+    color: #9ca3af;
+    margin: 0;
+  }
+
+  .heading {
+    margin: rem(6) 0 0;
+    font-size: clamp(rem(32), 4vw, rem(45));
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: rem(-1);
+  }
+
+  .media {
+    margin-top: rem(32);
+
+    .mockCard {
+      width: 100%;
+      height: rem(450);
+      border-radius: rem(32);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: rem(10);
+      position: relative;
+      overflow: hidden;
+
+      @include mq-max(640) {
+        flex-direction: column;
+      }
+
+      .imageContainer {
+        position: absolute;
+        inset: 0;
+        border-radius: rem(32);
+        overflow: hidden;
+      }
+
+      .heroImage {
+        object-fit: cover;
+      }
+
+      .cta {
+        padding: rem(16) rem(28);
+        border-radius: rem(999);
+        border: none;
+        background: #ffffff;
+        color: #0f172a;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: rem(8);
+        min-width: rem(240);
+
+        &::before {
+          content: '';
+          position: absolute;
+          inset: -20%;
+          background: linear-gradient(
+            180deg,
+            rgba(99, 102, 241, 0.3),
+            rgba(79, 70, 229, 0.08)
+          );
+          border-radius: inherit;
+          opacity: 0;
+          transform: translateY(70%);
+          pointer-events: none;
+        }
+
+        &:focus-visible::before,
+        &:active::before {
+          animation: cta-layer-rise 0.65s ease forwards;
+        }
+      }
+
+      @keyframes cta-layer-rise {
+        from {
+          opacity: 0;
+          transform: translateY(70%);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(-5%);
+        }
+      }
+    }
+  }
+}
+
+%overlay-shell {
+  position: fixed;
+  bottom: rem(45);
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  backdrop-filter: blur(10px);
+  z-index: 1200;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.overlay {
+  @extend %overlay-shell;
+  // max-width: rem(1024);
+  margin: 0 auto;
+  padding: rem(40) rem(24) 0 rem(24);
+
+  @include mq-max(640px) {
+    padding: rem(40) 0 0 0;
+  }
+}
+
+.overlayEnter {
+  @extend %overlay-shell;
+  pointer-events: auto;
+  opacity: 1;
+  animation: overlay-fade-in 0.35s ease forwards;
+}
+
+.overlayLeave {
+  @extend %overlay-shell;
+  pointer-events: none;
+  animation: overlay-fade-out 0.35s ease forwards;
+}
+
+%overlay-panel {
+  background: #fff;
+  border: rem(1) solid #ececec;
+  border-top-right-radius: rem(32);
+  border-top-left-radius: rem(32);
+  max-width: rem(1024);
+  width: 100%;
+  margin: 0 auto;
+  padding: rem(35) rem(40);
+  position: relative;
+  top: rem(45);
+  box-shadow: none;
+  transform: translateY(45%);
+  opacity: 1;
+}
+
+.overlayContent {
+  @extend %overlay-panel;
+  height: 100%;
+  max-height: calc(100vh - rem(90));
+  max-width: rem(1024);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: rem(60);
+
+  @include mq-max(640px) {
+    max-height: 100%;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  h3 {
+    margin: rem(12) 0 rem(12);
+    font-size: rem(24);
+  }
+
+  p {
+    margin: 0 auto;
+    line-height: 1.6;
+    max-width: rem(740);
+  }
+
+  .overlayEyebrow {
+    font-size: rem(12);
+    text-transform: uppercase;
+    letter-spacing: rem(2);
+    color: #787878;
+  }
+
+  .closeButton {
+    position: sticky;
+    top: 0;
+    right: 0;
+    align-self: flex-end;
+    background: rgba(242, 242, 242, 0.9);
+    border: 1px solid #ececec;
+    border-radius: rem(999);
+    width: rem(32);
+    height: rem(32);
+    font-size: rem(18);
+    line-height: rem(30);
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: rem(32);
+      height: rem(32);
+      transform: translateY(-1px);
+    }
+  }
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: rem(32);
+  margin-top: rem(32);
+}
+
+.overlayEnter {
+  .overlayContent {
+    transform: translateY(0);
+    animation: hero-panel-in 0.45s ease forwards;
+  }
+}
+
+.overlayLeave {
+  .overlayContent {
+    animation: hero-panel-out 0.35s ease forwards;
+  }
+}
+
+@keyframes rainbowShift {
+  0% {
+    background-position: 0% 50%, 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%, 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%, 0% 50%;
+  }
+}
+
+@keyframes hero-panel-in {
+  from {
+    transform: translateY(45%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-panel-out {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(45%);
+  }
+}
+
+@keyframes overlay-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes overlay-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

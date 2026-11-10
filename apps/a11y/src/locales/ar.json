@@ -1,0 +1,32 @@
+{
+	"panelTitle": "قائمة إمكانية الوصول",
+	"floatingButtonLabel": "فتح قائمة إمكانية الوصول",
+	"closeLabel": "إغلاق قائمة إمكانية الوصول",
+	"speechLang": "ar-SA",
+	"sections": {
+		"textLayout": "النص والتخطيط",
+		"visualAids": "مساعدات بصرية"
+	},
+	"sliders": {
+		"fontSize": "حجم الخط",
+		"lineHeight": "ارتفاع السطر",
+		"letterSpacing": "تباعد الأحرف"
+	},
+	"toggles": {
+		"darkMode": "الوضع الداكن",
+		"contrast": "الوضع الليلي",
+		"dyslexia": "مناسب لعسر القراءة",
+		"readableFont": "خط واضح",
+		"highlightLinks": "تمييز الروابط",
+		"hideImages": "إخفاء الصور والفيديوهات",
+		"magnifier": "قناع القراءة",
+		"reduceMotion": "تقليل الحركة",
+		"bigCursor": "مؤشر كبير",
+		"readAloud": "قراءة بصوت عالٍ"
+	},
+	"resetButton": "إعادة ضبط جميع الإعدادات",
+	"readAloudAnnouncements": {
+		"enabled": "تم تفعيل القراءة بصوت عالٍ",
+		"disabled": "تم إيقاف القراءة بصوت عالٍ"
+	}
+}

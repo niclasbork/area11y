@@ -1,0 +1,32 @@
+{
+	"panelTitle": "Menu d’accessibilité",
+	"floatingButtonLabel": "Ouvrir le menu d’accessibilité",
+	"closeLabel": "Fermer le menu d’accessibilité",
+	"speechLang": "fr-FR",
+	"sections": {
+		"textLayout": "Texte & mise en page",
+		"visualAids": "Aides visuelles"
+	},
+	"sliders": {
+		"fontSize": "Taille du texte",
+		"lineHeight": "Hauteur de ligne",
+		"letterSpacing": "Espacement des lettres"
+	},
+	"toggles": {
+		"darkMode": "Mode sombre",
+		"contrast": "Mode nuit",
+		"dyslexia": "Adapté à la dyslexie",
+		"readableFont": "Police lisible",
+		"highlightLinks": "Mettre en évidence les liens",
+		"hideImages": "Masquer images et vidéos",
+		"magnifier": "Masque de lecture",
+		"reduceMotion": "Réduire les animations",
+		"bigCursor": "Grand curseur",
+		"readAloud": "Lire à voix haute"
+	},
+	"resetButton": "Réinitialiser tous les réglages",
+	"readAloudAnnouncements": {
+		"enabled": "Lecture à voix haute activée",
+		"disabled": "Lecture à voix haute désactivée"
+	}
+}

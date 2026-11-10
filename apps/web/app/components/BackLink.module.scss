@@ -1,0 +1,44 @@
+@use '../styles/_mixins.scss' as *;
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-8);
+  width: fit-content;
+  text-decoration: none;
+  color: var(--color-void);
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  margin-left: 0 !important;
+  margin-top: var(--spacing-32);
+  margin-bottom: var(--spacing-16);
+
+  &::before {
+    content: none;
+  }
+}
+
+.arrow {
+  line-height: 1;
+}
+
+.label {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: rem(-2);
+    height: rem(1);
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+  }
+
+  .backLink:hover &::after {
+    transform: scaleX(1);
+  }
+}

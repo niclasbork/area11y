@@ -1,0 +1,32 @@
+{
+	"panelTitle": "Menu de acessibilidade",
+	"floatingButtonLabel": "Abrir menu de acessibilidade",
+	"closeLabel": "Fechar o menu de acessibilidade",
+	"speechLang": "pt-PT",
+	"sections": {
+		"textLayout": "Texto e layout",
+		"visualAids": "Ajudas visuais"
+	},
+	"sliders": {
+		"fontSize": "Tamanho do texto",
+		"lineHeight": "Altura da linha",
+		"letterSpacing": "Espaçamento entre letras"
+	},
+	"toggles": {
+		"darkMode": "Modo escuro",
+		"contrast": "Modo noturno",
+		"dyslexia": "Amigável para dislexia",
+		"readableFont": "Fonte legível",
+		"highlightLinks": "Realçar links",
+		"hideImages": "Ocultar imagens e vídeos",
+		"magnifier": "Máscara de leitura",
+		"reduceMotion": "Reduzir movimento",
+		"bigCursor": "Cursor grande",
+		"readAloud": "Ler em voz alta"
+	},
+	"resetButton": "Repor todas as definições",
+	"readAloudAnnouncements": {
+		"enabled": "Leitura em voz alta ativada",
+		"disabled": "Leitura em voz alta desativada"
+	}
+}

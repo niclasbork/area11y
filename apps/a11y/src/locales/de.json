@@ -1,0 +1,32 @@
+{
+	"panelTitle": "Barrierefreiheitsmenü",
+	"floatingButtonLabel": "Barrierefreiheitsmenü öffnen",
+	"closeLabel": "Barrierefreiheitsmenü schließen",
+	"speechLang": "de-DE",
+	"sections": {
+		"textLayout": "Text & Layout",
+		"visualAids": "Visuelle Hilfen"
+	},
+	"sliders": {
+		"fontSize": "Textgröße",
+		"lineHeight": "Zeilenabstand",
+		"letterSpacing": "Zeichenabstand"
+	},
+	"toggles": {
+		"darkMode": "Dark Mode",
+		"contrast": "Night Shift",
+		"dyslexia": "Legasthenie freundlich",
+		"readableFont": "Lesbare Schrift",
+		"highlightLinks": "Links hervorheben",
+		"hideImages": "Bilder & Videos ausblenden",
+		"magnifier": "Lesemaske",
+		"reduceMotion": "Weniger Bewegung",
+		"bigCursor": "Großer Cursor",
+		"readAloud": "Vorlesen"
+	},
+	"resetButton": "Alle Einstellungen zurücksetzen",
+	"readAloudAnnouncements": {
+		"enabled": "Vorlesen aktiviert",
+		"disabled": "Vorlesen deaktiviert"
+	}
+}

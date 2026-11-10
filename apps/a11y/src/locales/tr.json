@@ -1,0 +1,32 @@
+{
+	"panelTitle": "Erişilebilirlik menüsü",
+	"floatingButtonLabel": "Erişilebilirlik menüsünü aç",
+	"closeLabel": "Erişilebilirlik menüsünü kapat",
+	"speechLang": "tr-TR",
+	"sections": {
+		"textLayout": "Metin ve düzen",
+		"visualAids": "Görsel yardımcılar"
+	},
+	"sliders": {
+		"fontSize": "Yazı boyutu",
+		"lineHeight": "Satır yüksekliği",
+		"letterSpacing": "Harf aralığı"
+	},
+	"toggles": {
+		"darkMode": "Karanlık mod",
+		"contrast": "Gece modu",
+		"dyslexia": "Disleksi dostu",
+		"readableFont": "Okunabilir yazı tipi",
+		"highlightLinks": "Bağlantıları vurgula",
+		"hideImages": "Görselleri ve videoları gizle",
+		"magnifier": "Okuma maskesi",
+		"reduceMotion": "Hareketi azalt",
+		"bigCursor": "Büyük imleç",
+		"readAloud": "Sesli okuma"
+	},
+	"resetButton": "Tüm ayarları sıfırla",
+	"readAloudAnnouncements": {
+		"enabled": "Sesli okuma etkin",
+		"disabled": "Sesli okuma devre dışı"
+	}
+}

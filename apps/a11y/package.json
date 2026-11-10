@@ -1,0 +1,90 @@
+{
+	"name": "area11y",
+	"version": "2.0.0",
+	"type": "module",
+	"main": "./dist/area11y-core.cjs.js",
+	"module": "./dist/area11y-core.es.js",
+	"exports": {
+		".": {
+			"import": "./dist/area11y-core.es.js",
+			"require": "./dist/area11y-core.cjs.js"
+		},
+		"./loader": {
+			"import": "./dist/area11y-loader.es.js",
+			"require": "./dist/area11y-loader.cjs.js"
+		},
+		"./script": "./dist/area11y-core.iife.js"
+	},
+	"unpkg": "./dist/area11y-core.iife.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"homepage": "https://area11y.com",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/niclasbork/area11y.git",
+		"directory": "apps/a11y"
+	},
+	"bugs": {
+		"url": "https://area11y.com"
+	},
+	"author": "area11y",
+	"license": "MIT",
+	"keywords": [
+		"area11y",
+		"accessibility",
+		"a11y",
+		"widget",
+		"react",
+		"typescript",
+		"readability controls",
+		"friendly fonts",
+		"reading mask",
+		"screen reader",
+		"link highlighting",
+		"large cursor support"
+	],
+	"files": [
+		"dist/area11y-core.es.js",
+		"dist/area11y-core.cjs.js",
+		"dist/area11y-loader.es.js",
+		"dist/area11y-loader.cjs.js",
+		"dist/area11y-core.iife.js"
+	],
+	"scripts": {
+		"dev": "vite",
+		"build": "node ./scripts/write-core-version.mjs && vite build --config vite.core.config.ts && vite build && node ./scripts/minify-loader.mjs",
+		"build:lib": "tsc && vite build --config vite.lib.config.ts",
+		"build:loader": "vite build --config vite.loader.config.ts",
+		"build:script": "vite build --config vite.script.config.ts",
+		"preview": "vite preview",
+		"lint": "tsc --noEmit",
+		"test:visual": "node ./scripts/visual-test.mjs"
+	},
+	"dependencies": {
+		"@supabase/supabase-js": "^2.46.0",
+		"clsx": "^2.1.1",
+		"geist": "^1.5.1",
+		"i18next": "^25.7.3",
+		"lucide-react": "^0.446.0",
+		"tailwind-merge": "^2.5.2"
+	},
+	"peerDependencies": {
+		"react": "^18.0.0 || ^19.0.0",
+		"react-dom": "^18.0.0 || ^19.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^25.0.3",
+		"@types/react": "^18.3.10",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react": "^4.3.2",
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.4.47",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"sass": "^1.97.1",
+		"tailwindcss": "^3.4.19",
+		"typescript": "^5.6.2",
+		"vite": "^5.4.8"
+	}
+}

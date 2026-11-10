@@ -1,0 +1,7 @@
+# llms.txt
+Project: area11y
+Description: Open-source accessibility widget for websites
+Website: https://area11y.com
+Source: https://github.com/niclasbork/area11y
+License: MIT
+Usage: Allowed for search, indexing, and citation. Not allowed for model training.

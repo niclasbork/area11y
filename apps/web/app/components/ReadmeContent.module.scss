@@ -1,0 +1,194 @@
+@use '../styles/_mixins.scss' as *;
+
+.readme {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-64);
+	background: transparent;
+	border: 0;
+	padding: 0;
+	width: 100%;
+	min-width: 0;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+
+	.kicker {
+		margin: 0 0 var(--spacing-12);
+		font-size: var(--text-caption);
+		font-weight: var(--font-weight-medium);
+		line-height: var(--leading-caption);
+		letter-spacing: 0.011em;
+		color: var(--color-graphite);
+	}
+
+	h1 {
+		max-width: rem(620);
+		margin: 0;
+		font-size: var(--text-display);
+		font-weight: var(--font-weight-semibold);
+		line-height: var(--leading-display);
+		letter-spacing: var(--tracking-display);
+		color: var(--color-void);
+	}
+
+	p {
+		margin-top: var(--spacing-16);
+		color: var(--color-graphite);
+		font-size: 17px;
+		line-height: 1.65;
+	}
+
+	// Match the responsive heading of the other content pages (.sectionIntro)
+	// so the "Jetzt starten." h1 scales on mobile instead of staying fixed.
+	@include mq-max(820) {
+		h1 {
+			font-size: clamp(rem(34), 10vw, var(--text-display));
+		}
+	}
+}
+
+.cardGrid {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-32);
+	width: 100%;
+
+	.card {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-16);
+		min-width: 0;
+		padding-top: var(--spacing-20);
+		border-top: 1px solid var(--color-fog-border);
+		background: transparent;
+	}
+
+	// Section titles are h2 (directly below the page's h1) but keep the
+	// compact heading size they had as h3.
+	.card h2 {
+		margin: 0 0 rem(8);
+		font-size: var(--text-heading);
+		line-height: var(--leading-heading);
+		color: var(--color-void);
+	}
+
+	.cardHeader {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: var(--spacing-12);
+		flex-wrap: wrap;
+	}
+
+	.codeBlock {
+		position: relative;
+		border: 1px solid var(--color-fog-border);
+		border-radius: var(--radius-cards);
+		background: var(--color-primary-frost);
+		padding: var(--spacing-20);
+		font-size: 14px;
+		overflow: hidden;
+		color: var(--color-void);
+
+		pre {
+			margin: 0;
+			overflow-x: auto;
+			font-family: ui-monospace, SFMono-Regular, SFMono, Menlo, Consolas, "Liberation Mono", monospace !important;
+		}
+	}
+
+}
+
+.externalLink {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--spacing-8);
+	padding: rem(8) var(--spacing-12);
+	border-radius: var(--radius-buttons);
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	background: transparent;
+	color: var(--color-void);
+	font-size: 14px;
+	font-weight: var(--font-weight-medium);
+	text-decoration: none;
+	cursor: pointer;
+
+	&:hover {
+		background: var(--color-chalk);
+	}
+}
+
+.copyButton {
+	position: absolute;
+	top: var(--spacing-12);
+	right: var(--spacing-12);
+	display: inline-flex;
+	align-items: center;
+	gap: var(--spacing-8);
+	padding: rem(8) var(--spacing-12);
+	border-radius: var(--radius-buttons);
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	background: var(--color-canvas);
+	color: var(--color-void);
+	font-size: 14px;
+	font-weight: var(--font-weight-medium);
+	cursor: pointer;
+
+	&:hover {
+		background: var(--color-chalk);
+	}
+}
+
+.copyButton span {
+	font-size: 14px;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	line-height: 1.64;
+	font-family: inherit;
+
+	tr {
+		&:nth-child(even) {
+			background-color: var(--color-primary-frost);
+		}
+	}
+}
+
+.tableWrapper {
+	width: 100%;
+	overflow-x: auto;
+
+	.table {
+		min-width: 640px;
+	}
+}
+
+.table thead th {
+	text-align: left;
+	font-weight: var(--font-weight-semibold);
+	padding: var(--spacing-12);
+	border: 1px solid var(--color-fog-border);
+	color: var(--color-void);
+	vertical-align: middle;
+}
+
+.table td {
+	padding: var(--spacing-12);
+	border: 1px solid var(--color-fog-border);
+	vertical-align: middle;
+	color: var(--color-graphite);
+
+	code {
+		padding: rem(3) rem(6);
+		background-color: var(--color-chalk);
+		white-space: break-spaces;
+		border-radius: var(--radius-md);
+		color: var(--color-void);
+	}
+}

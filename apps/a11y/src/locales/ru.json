@@ -1,0 +1,32 @@
+{
+	"panelTitle": "Меню доступности",
+	"floatingButtonLabel": "Открыть меню доступности",
+	"closeLabel": "Закрыть меню специальных возможностей",
+	"speechLang": "ru-RU",
+	"sections": {
+		"textLayout": "Текст и макет",
+		"visualAids": "Визуальные помощники"
+	},
+	"sliders": {
+		"fontSize": "Размер текста",
+		"lineHeight": "Высота строки",
+		"letterSpacing": "Интервал между буквами"
+	},
+	"toggles": {
+		"darkMode": "Темный режим",
+		"contrast": "Ночной режим",
+		"dyslexia": "Для дислексии",
+		"readableFont": "Читаемый шрифт",
+		"highlightLinks": "Подсветка ссылок",
+		"hideImages": "Скрыть изображения и видео",
+		"magnifier": "Маска чтения",
+		"reduceMotion": "Уменьшить движение",
+		"bigCursor": "Большой курсор",
+		"readAloud": "Читать вслух"
+	},
+	"resetButton": "Сбросить все настройки",
+	"readAloudAnnouncements": {
+		"enabled": "Озвучивание включено",
+		"disabled": "Озвучивание выключено"
+	}
+}

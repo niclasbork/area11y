@@ -1,0 +1,24 @@
+{
+	"name": "area11y",
+	"private": true,
+	"workspaces": [
+		"apps/*"
+	],
+	"scripts": {
+		"dev": "npm run dev --workspace apps/web",
+		"dev:a11y": "VERCEL_PROJECT_ID=prj_6MM5VBzAGhpwvUR7oQcLr13DWI9M VERCEL_ORG_ID=team_sRM9oFsIcNDFoAOq8RUpCzgE vercel dev --listen 3001",
+		"dev:web": "npm run dev --workspace apps/web",
+		"dev:all": "npm run dev:web & npm run dev:a11y & wait",
+		"build": "npm run build:a11y && npm run build:web",
+		"build:a11y": "npm run build --workspace apps/a11y",
+		"build:web": "npm run build --workspace apps/web",
+		"build:core": "npm --workspace apps/a11y run build:lib && npm --workspace apps/a11y run build:loader && npm --workspace apps/a11y run build:script",
+		"pack:core": "npm --workspace apps/a11y pack",
+		"pack:core:dry": "npm --workspace apps/a11y pack --dry-run",
+		"release:core": "npm --workspace apps/a11y version patch && npm run build:core && npm --workspace apps/a11y publish --access public",
+		"lint": "npm run lint --workspace apps/a11y && npm run lint --workspace apps/web"
+	},
+	"devDependencies": {
+		"vercel": "^65.14.0"
+	}
+}
