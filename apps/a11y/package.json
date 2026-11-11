@@ -1,6 +1,6 @@
 {
 	"name": "area11y",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"type": "module",
 	"main": "./dist/area11y-core.cjs.js",
 	"module": "./dist/area11y-core.es.js",
